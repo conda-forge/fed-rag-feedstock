@@ -1,5 +1,5 @@
 {% set name = "fed-rag" %}
-{% set version = "0.0.12" %}
+{% set version = "0.0.13" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/fed_rag-{{ version }}.tar.gz
-  sha256: c34c086d9416274fa00ef273f986b9506166ff2a492e9aa1afef4a3a1e4f10be
+  sha256: e1d70fc98546cf1d25377a761a56092743fac5af2640a6551e2f17c921d37419
 
 build:
   noarch: python
